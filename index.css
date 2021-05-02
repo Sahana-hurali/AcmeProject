@@ -1,0 +1,333 @@
+body{
+    margin: 0 !important;
+    text-align: justify;
+}
+header{
+    height: auto;
+    width: 100%;
+    background-color: #eb5757;
+    padding: 2.5%;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.floatR{
+    float: right;
+    margin-right: 9%;
+}
+.menu{
+    display: inline;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.boxes{
+display:flex;
+margin-top: 3%;
+justify-content:space-around;
+padding:20px;
+}
+.box{
+margin:20px;
+width:350px;
+height:400px;
+}
+.bx{
+    flex-shrink: 0;
+}
+#box1{
+background-color: black;
+    height: 230px;
+    width: 270px;
+    color: white;
+	border-radius: 10px;
+    position: relative;
+    padding-left: 5px;
+	padding:10px;
+}
+#one{
+padding:10px;
+font-size:20px;
+}
+#btxt{
+justify-content:center;
+font-size:40px;
+height:auto;
+width:200px;
+padding:10px;
+padding-right:10px;
+text-align: center;
+padding-left: 26px;
+}
+p{
+width: 250px;
+font-size: 18px;
+margin-left: 20px;
+}
+
+nav{
+    background-image: linear-gradient(90deg,black,rgba(34,34,34,0)),url(./Pick1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;    
+}
+.nav{
+    width: 35%;
+    height: auto;
+    float: left;
+    text-align: left;
+    padding-left: 7%;
+    padding-top: 9%;
+    color: whitesmoke;
+}
+.Nbtn{
+    background-color:transparent;
+    border: 1px solid snow;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+}
+.Nbtn:hover{
+    background-color:snow;
+    color: black;
+}
+.text{
+padding:5%;
+text-align: justify;
+margin-right:5%;
+min-height: 50px;
+}
+#text{
+    float: left;
+    height: 30px;
+    width: 50%;     
+}
+
+#firstDivision{
+    margin-left: 5%;
+}
+#secondDivision{
+    background-image: linear-gradient(180deg,rgba(19, 18, 18, 0.438),#222),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnMVTv0j0SVGZtdxSAh2aulvySNcgLHoqwg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    min-height: 400px;    
+}
+.secondDivision{
+    width: 35%;
+    float: right;
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 5%;
+    color: whitesmoke;
+}
+.Sbtn{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#thirdDivision{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+#fourthDivision{
+    display:flex;
+    margin-top: 3%;
+    justify-content:space-around;
+     padding:20px;
+     border: 1px solid lightgray;
+    /*margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 5%;
+    width: auto;*/
+}
+
+.image{
+    justify-content: space-around;
+    border: 0.5px solid lightgray;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    height: 250px;
+    width: 250px;
+    float: left;
+   
+    margin-bottom: 10%;
+    
+}
+.img{
+    height: 282px;
+    width: 145px;
+    padding:10px;
+    margin-left: 10px;
+}
+figcaption{
+    width: 250px;
+font-size: 15px;
+padding-top: 15px;;
+}
+
+#bottom{
+    bottom: 0;
+    margin-top: 5%;
+    margin-right: 13%;
+    margin-bottom: 9%;
+    width: 80vh;
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    border-radius: 8px;
+    text-align: justify;
+}
+#z{
+    margin-right: 10%;
+    margin-left: 10%;
+	height: 455px;
+}
+.bottompic{
+    position: absolute;
+    left: 17vh;
+    top: 345vh;
+    right: auto;
+    bottom: 0;
+    width: 25%;
+    height: 0;
+    min-height: 440px;
+    border-radius: 10px;
+    background-position: 69% 80%;
+    background-size: 270%;
+      
+}
+n{
+    font-size: 16px;
+}
+/*footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 15vh;   
+    width: 100%;
+    bottom: 0;
+}*/
+/*-------------------
+@media only screen and(max-width:992px) .container, .d1{
+	max-width:960px;
+}---*/
+@media only screen and (max-width:1060px) {
+	.section_img, .floatR{
+		display:none;
+		}
+		.show{
+			display:flex;
+		
+		}
+		.container{
+			max-width:960px;
+		}
+}
+@media only screen and (max-width:500px){
+	.container{
+		align-content: flex-end;
+	}
+	.f1{
+		width:174%;
+	}
+	.boxes{
+		display:flex;
+		flex-wrap:wrap;
+		flex-direction:column;
+	}
+	.secondDivision{
+		background-size: 100% 100%;
+    min-height: 400px;
+	}
+	}
+*, :after, :before{
+	box-sizing:borderbox !important;
+}
+
+.container{
+	width:100%;
+	padding-right:15px;
+	padding-left:15px;
+	margin-left:auto;
+	margin-right:auto
+}
+.d1{
+	position:relative;
+	display:flex;
+	justify-content:flex-end;
+	min-height:500px;
+}
+.section_img{
+	position:absolute;
+	left:7%;
+	top:12%;
+	right:auto;
+	bottom:0;
+	width:30%;
+	height:0;
+	min-height:440px;
+	background-image: url("https://www.purdueglobal.edu/blog/it/kaplwomencomputerscience1.jpg");
+	border-radius:8px;
+	background-position:54% 15%;
+	background-size:201%;
+	
+}
+.d2{
+	margin-right: 10%;
+    margin-left: 10%;
+	bottom: 0;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    width: 85vh;
+    float: left;
+    padding: 5%;
+    text-align: justify;
+	
+	display:flex;
+	/*width:80%;*/
+	padding:45%;
+	/*justify-content:flex-end;*/
+	border-radius:5px;
+	background-color:black;
+	color:white;
+}
+.d3 h1{
+	font-weight:700;
+}
+.d3{
+	padding:0 8rem;
+	width:90%;
+}
+.d3 p{
+	margin-top:0;
+	margin-bottom:1rem;
+	color:white;
+	font-size: 18px;
+}
+.footer_bottom{
+	text-align:center;
+}
+.footer_bottom p{
+	margin-top:0;
+	margin-bottom:1%;
+	display:inline;
+}
+.footer_bottom a{
+	text-decoration:none;
+	background-color:transparent;
+}
+.f1{
+	padding-top:4%;
+	padding-bottom:4%;
+	background-color:black;
+	color:white;
+	background-size:cover;
+	
+}
